@@ -10,6 +10,7 @@ Function.prototype.inherits2 = function(BaseClass){
   this.prototype.constructor = this;
 };
 
+
 // Asteroid.inherits(Ship);
 function MovingObject (color) {
   this.color = color;
